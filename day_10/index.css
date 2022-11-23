@@ -1,0 +1,115 @@
+
+/*
+.ullist li:nth-of-type(odd){
+    background:pink;
+
+}
+
+.ullist li:nth-of-type(even){
+    background:rgb(48, 180, 92);
+
+}
+*/
+/*
+.ullist li:nth-child(2){
+    background: green;
+}
+
+.ullist li:nth-child(4){
+    background: rgb(61, 32, 225);
+}
+
+.ullist li:nth-last-child(1){
+    background: yellow;
+}
+.ullist li:nth-last-child(2){
+    background: rgb(195, 47, 116);
+}
+*/
+/*
+div:first-of-type{
+    background: red;
+}
+
+div:last-of-type{
+    background: violet;
+}
+*/
+/*
+a{
+    background-color: yellow;
+}
+a:visited{
+    color:red;
+}
+a:hover{
+    background-color: blue;
+
+}*/
+/*
+a:link{
+    background-color: rgb(212, 225, 33);
+}
+a:active{
+    color:rgb(230, 15, 15);
+}
+
+
+.before_text::before{
+    content: "This is the new content for the website";
+    color:red;
+    font-size: 25px;
+}
+
+.after_text::after{
+    content: " This is the new content after the text";
+    color:green;
+    font-size:24px
+}
+
+
+p::first-letter{
+font-size: 20px;
+color: green  ;
+}
+
+
+
+.test_ram {
+    border:3px red double -;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+
+*/
+div{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: yellow;
+    font-size: 30px;
+border: green solid  2px;
+margin: 20px;
+width: 450PX;
+text-align: center;
+box-shadow: 5px 10px 8px pink;
+
+border-radius: 20px;}
+
+
+.static{
+    position: static;
+    top:0px;
+}
+
+.relative{
+    position: relative;
+    left:400px;
+    top:300px;
+}
+
+.ancestor{
+    width:500px;
+    height:300px;
+}

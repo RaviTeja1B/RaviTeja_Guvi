@@ -1,0 +1,47 @@
+.main-container{
+    display:flex;
+   flex-flow: row wrap;
+    align-items: center;
+}
+  
+.item{
+    color: red;
+    font-size: 20px;
+    padding: 20px;
+    flex-basis:15%;
+    
+}
+
+.name-1{
+    background-color: blue;
+}
+
+.name-2{
+    background-color: rgb(123, 123, 215);
+}
+
+.name-3{
+    background-color: rgb(213, 213, 240);
+} 
+
+.name-4{
+    background-color: blue;
+}
+.name-5{
+    background-color: rgb(62, 62, 89);
+}
+.name-6{
+    background-color: rgb(119, 119, 125);
+}
+.name-7{
+    background-color: rgb(74, 74, 151);
+}
+.name-8{
+    background-color: rgb(20, 20, 100);
+}
+.name-9{
+    background-color: rgb(12, 12, 81);
+}
+.name-10{
+    background-color: rgb(2, 2, 129);
+}

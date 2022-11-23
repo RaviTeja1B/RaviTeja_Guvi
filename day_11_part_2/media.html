@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queri</title>
+    <link rel="stylesheet" href="./media.css">
+</head>
+<body>
+    <h2>Screen Size : <span id="span">PX</span></h2>
+    <div>
+        <h1>Small Mobile Devices 500px</h11>
+        <h1>Mobile Devices  500 to 800px</h12>
+        <h1>Tablet Devices</h13>
+        <h1>Laptop Devices</h14>
+        <h1>Large Devices</h15>
+    </div>
+
+
+    <img src="https://cdn.pixabay.com/photo/2018/01/12/10/19/fantasy-3077928__480.jpg" alt="">
+
+    <script>
+        window.addEventListener ("resize", function(){
+          let Screensize=window.innerWidth
+          document.querySelector("#span").textContent=Screensize
+  
+        })
+      </script>
+</body> 
+</html>

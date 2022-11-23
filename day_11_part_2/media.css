@@ -1,0 +1,30 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font: size 20px;
+                
+    
+}
+img{
+    width: 100%;
+}
+
+@media (max-width:800px){
+    body{
+        background: linear-gradient(45deg, rgb(175, 143, 175), rgb(25, 117, 145));
+    }
+
+    h1:nth-child(1){
+        display: block;
+    }
+}
+
+
+@media (min-width:500px)and (max-width:600px){
+    body{
+        background: linear-gradient(45deg, rgb(63, 188, 78), rgb(169, 191, 28));
+    }
+
+    h1:nth-child(1){
+        display: block;
+    }
+}
